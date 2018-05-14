@@ -74,3 +74,8 @@ The authenticity of host '[localhost]:2222 ([127.0.0.1]:2222)' can't be establis
 ECDSA key fingerprint is SHA256:l11u/.
 Are you sure you want to continue connecting (yes/no)? 
 ```
+
+>* man eval
+```sh 
+Shell builtin commands are commands that can be executed within the running shell's process. 
+```
