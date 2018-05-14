@@ -79,3 +79,11 @@ Are you sure you want to continue connecting (yes/no)?
 ```sh 
 Shell builtin commands are commands that can be executed within the running shell's process. 
 ```
+>* ssh-add ~/.ssh/id_rsa_Theos125
+```sh
+devzkndeMacBook-Pro:sbwifitweak devzkn$ ssh-add ~/.ssh/id_rsa_Theos125
+Identity added: /Users/devzkn/.ssh/id_rsa_Theos125 (/Users/devzkn/.ssh/id_rsa_Theos125)
+devzkndeMacBook-Pro:sbwifitweak devzkn$ ssh-add -l
+4096 SHA256: /Users/devzkn/.ssh/id_rsa (RSA)
+2048 SHA256:L1XVpioVKP/6LajAEH9++ /Users/devzkn/.ssh/id_rsa_Theos125 (RSA)
+```
