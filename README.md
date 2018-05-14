@@ -52,8 +52,19 @@ By default, ssh-agent stores its socket files in `/tmp/ssh-XXXXXXXXXXXX/agent.YY
 
 
 # see also
->*
+>*  ls -lrt /usr/bin/ssh*
 ```sh
 devzkndeMacBook-Pro:sbwifitweak devzkn$ ssh-add
 Identity added: /Users/devzkn/.ssh/id_rsa (/Users/devzkn/.ssh/id_rsa)
+devzkndeMacBook-Pro:sbwifitweak devzkn$ ls -lrt /usr/bin/ssh*
+-rwxr-xr-x  1 root  wheel    10372 Jul 16  2017 /usr/bin/ssh-copy-id
+-rwxr-xr-x  1 root  wheel  1810576 Oct 26  2017 /usr/bin/ssh-add
+-rwxr-xr-x  1 root  wheel  1846608 Oct 26  2017 /usr/bin/ssh-keygen
+-rwxr-xr-x  1 root  wheel  1856496 Oct 26  2017 /usr/bin/ssh-keyscan
+-rwxr-xr-x  1 root  wheel  1809312 Oct 26  2017 /usr/bin/ssh-agent
+-rwxr-xr-x  1 root  wheel  2112992 Oct 26  2017 /usr/bin/ssh
+devzkndeMacBook-Pro:sbwifitweak devzkn$ ls -lrt  /usr/libexec/ssh*
+-r-xr-xr-x  1 root  wheel      629 Jul 16  2017 /usr/libexec/sshd-keygen-wrapper
+-rwx--x--x  1 root  wheel  1873680 Oct 26  2017 /usr/libexec/ssh-keysign
+-rwxr-xr-x  1 root  wheel  1647152 Oct 26  2017 /usr/libexec/ssh-pkcs11-helper
 ```
