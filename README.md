@@ -49,3 +49,11 @@ Detecting an existing ssh-agent
 -------------------------------
 
 By default, ssh-agent stores its socket files in `/tmp/ssh-XXXXXXXXXXXX/agent.YYYY` where the X's are a random alphanumeric string and YYYY is the pid of the original ssh-agent process. This process forks to allow the daemon to keep running in the background, so the ssh-agent daemon process will have a pid that is one higher. This allows one to recreate the `SSH_AUTH_SOCK` environment variable (and check that the agent is still running).
+
+
+# see also
+>*
+```sh
+devzkndeMacBook-Pro:sbwifitweak devzkn$ ssh-add
+Identity added: /Users/devzkn/.ssh/id_rsa (/Users/devzkn/.ssh/id_rsa)
+```
