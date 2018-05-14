@@ -68,3 +68,9 @@ devzkndeMacBook-Pro:sbwifitweak devzkn$ ls -lrt  /usr/libexec/ssh*
 -rwx--x--x  1 root  wheel  1873680 Oct 26  2017 /usr/libexec/ssh-keysign
 -rwxr-xr-x  1 root  wheel  1647152 Oct 26  2017 /usr/libexec/ssh-pkcs11-helper
 ```
+>* echo "" > ~/.ssh/known_hosts
+```sh
+The authenticity of host '[localhost]:2222 ([127.0.0.1]:2222)' can't be established.
+ECDSA key fingerprint is SHA256:l11u/6a4bw0ZiTkC92S3UzpJPcE84EEvBhjhq439Eac.
+Are you sure you want to continue connecting (yes/no)? 
+```
